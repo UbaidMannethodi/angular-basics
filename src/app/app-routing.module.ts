@@ -6,10 +6,12 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
+  {path: '',redirectTo:'home',pathMatch:'full'},
   {path :'home',component:HomeComponent}, 
   {path :'about-us',component:AboutUsComponent}, 
   {path :'contact-us',component:ContactUsComponent}, 
-  {path:'dynamic-form',component:DynamicFormComponent}
+  {path:'dynamic-form',component:DynamicFormComponent},
+  {path:'emp1',loadChildren:()=>import('./lazyemployee/lazyemployee.module').then(m=>m.LazyemployeeModule)}
 ];
 
 @NgModule({
