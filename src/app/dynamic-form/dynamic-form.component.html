@@ -1,0 +1,15 @@
+<div class="container">
+    <form [formGroup]="registrationForm" (ngSubmit)="onSubmit(registrationForm)">
+        <div class="form-group">
+            <label for="">Email</label>
+            <input type="email" name="email" id="" class="form-control" formControlName="email" />
+            <input type="number" name="phone" id="" class="form-control" formControlName="phone" />
+        </div>
+        <button type="submit" class="btn btn-primary mt-2" (click)="addAlternativeEmails()">Add</button><br />
+        <div formArrayName="alternativeEmails" *ngFor="let item of alternative.controls; let i=index">
+            <label for="">AlternativeEmail {{i+1}} </label>
+            <input type="text" name="" id="" [formControlName]="i" class="form-control">         
+        </div>     
+        <button type="submit" class="btn btn-success mt-2">Submit</button>
+    </form>
+</div>
