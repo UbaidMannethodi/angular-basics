@@ -10,6 +10,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
+import { PostmethodComponent } from './postmethod/postmethod.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { Component2Component } from './component2/component2.component';
     ContactUsComponent,
     DynamicFormComponent,
     Component1Component,
-    Component2Component
+    Component2Component,
+    PostmethodComponent
   ],
   imports: [
     BrowserModule,

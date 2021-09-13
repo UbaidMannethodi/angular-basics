@@ -1,8 +1,9 @@
-.nav-element{
+/* .nav-element{
     display: flex;
     justify-content: space-between;
     align-items: center  ;
     background-color: antiquewhite;
+    width: 100%;
 }
 .list-items{
     display: flex;
@@ -10,4 +11,4 @@
 }
 .list-items > li{
     padding: 5px;
-}
+} */

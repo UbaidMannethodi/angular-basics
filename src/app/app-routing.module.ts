@@ -6,6 +6,7 @@ import { Component2Component } from './component2/component2.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { HomeComponent } from './home/home.component';
+import { PostmethodComponent } from './postmethod/postmethod.component';
 
 const routes: Routes = [
   {path: '',redirectTo:'home',pathMatch:'full'},
@@ -18,6 +19,8 @@ const routes: Routes = [
   //----service examples
   {path:'comp1',component:Component1Component},
   {path:'comp2',component:Component2Component},
+  //----http post
+  {path:'post',component:PostmethodComponent},
 ];
 
 @NgModule({

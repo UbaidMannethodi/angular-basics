@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light bg-light">
+<!-- <nav class="navbar navbar-light bg-light">
     <div class="nav-element">
   <div>
       Angular
@@ -9,11 +9,38 @@
           <li [routerLink]="['/about-us']">About us</li>
           <li [routerLink]="['/contact-us']">Contact us</li>
           <li [routerLink]="['/dynamic-form']">Form</li>
+          <li [routerLink]="['/post']">post</li>
       </ul>
     </div> 
   </div> 
     
 
  
+</nav> -->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <li [routerLink]="['/home']" class="nav-item nav-link">Home</li>
+      <li [routerLink]="['/about-us']" class="nav-item nav-link">About us</li>
+      <li [routerLink]="['/contact-us']" class="nav-item nav-link">Contact us</li>
+      <li [routerLink]="['/dynamic-form']" class="nav-item nav-link">Form</li>
+      <li [routerLink]="['/post']" class="nav-item nav-link">post</li>
+
+
+
+
+    
+    </div>
+  </div>
 </nav>
+
+
+
+
 <router-outlet></router-outlet>
