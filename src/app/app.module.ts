@@ -11,6 +11,7 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
 import { PostmethodComponent } from './postmethod/postmethod.component';
+import { CommonComponent } from './common/common.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PostmethodComponent } from './postmethod/postmethod.component';
     DynamicFormComponent,
     Component1Component,
     Component2Component,
-    PostmethodComponent
+    PostmethodComponent,
+    CommonComponent
   ],
   imports: [
     BrowserModule,

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { CommonComponent } from './common/common.component';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
@@ -21,6 +22,9 @@ const routes: Routes = [
   {path:'comp2',component:Component2Component},
   //----http post
   {path:'post',component:PostmethodComponent},
+  // common component
+  {path:'common',component:CommonComponent},
+  
 ];
 
 @NgModule({
