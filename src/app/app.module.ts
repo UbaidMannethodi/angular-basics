@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
@@ -10,7 +10,6 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
-import { PostmethodComponent } from './postmethod/postmethod.component';
 import { CommonComponent } from './common/common.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { CommonComponent } from './common/common.component';
     DynamicFormComponent,
     Component1Component,
     Component2Component,
-    PostmethodComponent,
     CommonComponent
   ],
   imports: [
