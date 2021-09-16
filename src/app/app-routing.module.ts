@@ -7,6 +7,7 @@ import { Component2Component } from './component2/component2.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { HomeComponent } from './home/home.component';
+import { StudentComponent } from './student/student.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
@@ -21,6 +22,9 @@ const routes: Routes = [
   { path: 'comp2', component: Component2Component },
   // common component
   { path: 'common', component: CommonComponent },
+  //url parameter pass, student component
+  { path: 'student/:id/:name', component: StudentComponent },
+
 
 ];
 

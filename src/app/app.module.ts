@@ -11,6 +11,7 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
 import { CommonComponent } from './common/common.component';
+import { StudentComponent } from './student/student.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { CommonComponent } from './common/common.component';
     DynamicFormComponent,
     Component1Component,
     Component2Component,
-    CommonComponent
+    CommonComponent,
+    StudentComponent
   ],
   imports: [
     BrowserModule,
