@@ -12,7 +12,7 @@ export class StudentComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
 
   ngOnInit(): void {
-    //setting value from url to variable
+    //setting value from url to variable, ! not a  right way
     // this.studentId = this.route.snapshot.params['id'];
     // this.studentName = this.route.snapshot.params['name'];
 

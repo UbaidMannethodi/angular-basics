@@ -2,5 +2,11 @@
 
 <!-- <button class="btn btn-primary" (click)="gotoAbout()">About us</button> -->
 <app-common [params]='btnTitle' [routerLink]="['/about-us']"></app-common>
-gsfdjghn gdg hsgahfdg hjhjgsad dgjdg
 
+
+
+<!-- query params and fragment pass through routes -->
+<button class="btn btn-success" [routerLink]="['/edit-student',3,'edit']" [queryParams]="{allowEdit : true}" fragment="loading">Edit Student[routes]</button>
+
+<!-- pass programatically -->
+<button class="btn btn-danger" (click)="gotoAbout()">Edit Student</button>

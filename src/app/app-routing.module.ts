@@ -6,6 +6,7 @@ import { Component1Component } from './component1/component1.component';
 import { Component2Component } from './component2/component2.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
+import { EditStudentComponent } from './edit-student/edit-student.component';
 import { HomeComponent } from './home/home.component';
 import { StudentComponent } from './student/student.component';
 
@@ -24,6 +25,9 @@ const routes: Routes = [
   { path: 'common', component: CommonComponent },
   //url parameter pass, student component
   { path: 'student/:id/:name', component: StudentComponent },
+  // quary param and fragment
+  { path: 'edit-student/:id/edit', component: EditStudentComponent },
+
 
 
 ];

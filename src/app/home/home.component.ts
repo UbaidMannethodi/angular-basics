@@ -15,7 +15,11 @@ export class HomeComponent implements OnInit {
 
 
 gotoAbout(){
-  this.router.navigate(['/about-us']);
+  // navigate to about us page
+  // this.router.navigate(['/about-us']);
+
+  // quary params and fragments using script
+  this.router.navigate(['/edit-student',4,'edit'],{queryParams: {allowEdit: true},fragment: "loading"});
   
 }
 }
