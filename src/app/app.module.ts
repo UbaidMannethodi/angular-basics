@@ -13,6 +13,7 @@ import { Component2Component } from './component2/component2.component';
 import { CommonComponent } from './common/common.component';
 import { StudentComponent } from './student/student.component';
 import { EditStudentComponent } from './edit-student/edit-student.component';
+import { ObservableComponent } from './observable/observable.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { EditStudentComponent } from './edit-student/edit-student.component';
     Component2Component,
     CommonComponent,
     StudentComponent,
-    EditStudentComponent
+    EditStudentComponent,
+    ObservableComponent
   ],
   imports: [
     BrowserModule,

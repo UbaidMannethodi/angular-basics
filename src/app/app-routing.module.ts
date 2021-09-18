@@ -8,6 +8,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
 import { EditStudentComponent } from './edit-student/edit-student.component';
 import { HomeComponent } from './home/home.component';
+import { ObservableComponent } from './observable/observable.component';
 import { StudentComponent } from './student/student.component';
 
 const routes: Routes = [
@@ -27,8 +28,9 @@ const routes: Routes = [
   { path: 'student/:id/:name', component: StudentComponent },
   // quary param and fragment
   { path: 'edit-student/:id/edit', component: EditStudentComponent },
-
-
+  // observable
+  { path: 'observable', component: ObservableComponent},
+  
 
 ];
 

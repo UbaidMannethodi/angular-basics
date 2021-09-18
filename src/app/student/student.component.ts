@@ -13,6 +13,7 @@ export class StudentComponent implements OnInit {
 
   ngOnInit(): void {
     //setting value from url to variable, ! not a  right way
+    
     // this.studentId = this.route.snapshot.params['id'];
     // this.studentName = this.route.snapshot.params['name'];
 

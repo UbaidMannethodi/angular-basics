@@ -13,7 +13,9 @@ export class EditStudentComponent implements OnInit {
   ngOnInit(): void {
 
     // get value of queryparams and fragments 
+
     // console.log(this.route.snapshot.queryParams);
+
 
     // right way
     console.log(
@@ -22,7 +24,6 @@ export class EditStudentComponent implements OnInit {
         
       })
     );
-    
     // fragment
     console.log(
       this.route.fragment.subscribe((fragment)=>{
